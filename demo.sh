@@ -26,7 +26,7 @@ dog__new() {
 
     __set_dog_field "$this" name "${2:?}"
     __set_dog_field "$this" age "${3:?}"
-    __set_dog_field "$this" "breed" "${4:?}"
+    __set_dog_field "$this" breed "${4:?}"
     __set_dog_array_field "$this" walking
 }
 
