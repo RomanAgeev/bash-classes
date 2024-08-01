@@ -21,7 +21,7 @@ dog__get_default_sound() {
 dog__new() {
     local this="${1:?}"
 
-    # Init the internal field to be check instance existence: __exist_dog "$this"
+    # Init an internal field to check instance existence: __exist_dog "$this"
     __init_dog "$this"
 
     __set_dog_field "$this" name "${2:?}"
