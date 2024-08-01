@@ -108,5 +108,5 @@ for dog in "${my_dogs[@]}"; do
     dog__free "$dog"
 done
 
-# NOTE: Uncomment to check the effect of the 'dog_free' destructor
+# NOTE: Uncomment to check the effect of the 'dog__free' destructor
 # compgen -v | grep dog__
