@@ -1,2 +1,2 @@
 # bash-classes
-Implementation of OOP class semantics in bash
+An OOP class semantics implementation in bash
